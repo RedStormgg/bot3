@@ -21,8 +21,8 @@ KEYBOARD3 = {
             "Columns": 6,
             "Rows": 1,
             "BgColor": "#e6f5ff",
-            "ActionBody": "Давай начнём!",
-            "Text": "Давай начнём!"
+            "ActionBody": "Поехали!",
+            "Text": "Поехали!"
         },
         {
             "Columns": 6,

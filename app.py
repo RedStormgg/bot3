@@ -112,10 +112,10 @@ def send_question(viber_id):
             Learning.right_answer >= settings[1]).count()
         session.close()
         return TextMessage(text=f'У вас {temp_correct_answers} верных из {settings[0]}. '
-                                f'Вы уже выучили {select_query2} слов. '
+                                f'Выучено: {select_query2} слов. '
                                 f'Осталось выучить {50 - select_query2} слов. '
-                                f'Последний опрос пройден {str(select_query[3])[:16]}. '
-                                f'Хотите ещё раз сыграть?',
+                                f'Время прохождения теста: {str(select_query[3])[:16]}. '
+                                f'Хотите ещё раз попробовать?',
                            keyboard=KEYBOARD1, tracking_data='tracking_data')
     else:
         temp_answers = []
@@ -210,7 +210,7 @@ def update_time(viber_id):
     update_query.dt_last_answer = datetime.utcnow()
     session.commit()
     session.close()
-    return TextMessage(text='Прохождение теста отложено на полчаса')
+    return TextMessage(text='Хорошо, напомню тебе чуть позже!')
 
 
 def get_question_number(viber_id):
@@ -272,8 +272,8 @@ KEYBOARD1 = {
             "Columns": 6,
             "Rows": 1,
             "BgColor": "#e6f5ff",
-            "ActionBody": "Давай начнём!",
-            "Text": "Давай начнём!"
+            "ActionBody": "Поехали!",
+            "Text": "Поехали!"
         }
     ]
 }
@@ -314,8 +314,8 @@ KEYBOARD2 = {
 
 @app.route('/incoming', methods=['POST'])
 def incoming():
-    Base.metadata.create_all(engine)
-    add_settings()
+    #Base.metadata.create_all(engine)
+    #add_settings()
     viber_request = viber.parse_request(request.get_data())
     print(viber_request)
     if isinstance(viber_request, ViberConversationStartedRequest):
@@ -323,7 +323,7 @@ def incoming():
         new_current_id = viber_request.user.id
         add_user(new_current_id)
         viber.send_messages(viber_request.user.id, [
-            TextMessage(text='Бот предназначен для заучивания английских слов, для начала нажмите кнопку снизу.',
+            TextMessage(text='Привет! Этот бот предназначен для заучивания английских слов! Нажимай кнопку "Поехали"!',
                         keyboard=KEYBOARD1, tracking_data='tracking_data')
         ])
     if isinstance(viber_request, ViberMessageRequest):
@@ -336,7 +336,7 @@ def incoming():
                 text = message.text
                 print(text)
                 # чтение введёного текста
-                if text == "Давай начнём!":
+                if text == "Поехали!":
                     bot_response = send_question(current_id)
                     viber.send_messages(current_id, bot_response)
                 elif text == "Показать пример":
