@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eba61307-3237-4f83-a67c-66ddf9f991c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1SR1OTI7y4IIVRh4eXPpO5CcPUl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1\PycharmProjects\test\templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="set_webhook" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/set_webhook.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in C:/Users/1/PycharmProjects/test/Test2.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test2.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.set_webhook" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.test1" />
+        <item itemvalue="Python tests.Unittests in C:/Users/1/PycharmProjects/test/Test2.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eba61307-3237-4f83-a67c-66ddf9f991c8" name="Default Changelist" comment="" />
+      <created>1571511561448</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571511561448</updated>
+    </task>
+    <task id="LOCAL-00002" summary="4th commit">
+      <created>1584724492340</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584724492340</updated>
+    </task>
+    <task id="LOCAL-00003" summary="5th commit">
+      <created>1584724564710</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584724564710</updated>
+    </task>
+    <task id="LOCAL-00004" summary="6th commit">
+      <created>1584728371200</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584728371200</updated>
+    </task>
+    <task id="LOCAL-00005" summary="7th commit">
+      <created>1584728806077</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584728806077</updated>
+    </task>
+    <task id="LOCAL-00006" summary="8th commit">
+      <created>1584730028792</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584730028792</updated>
+    </task>
+    <task id="LOCAL-00007" summary="9th commit">
+      <created>1584730560399</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584730560399</updated>
+    </task>
+    <task id="LOCAL-00008" summary="10th commit(postgres)">
+      <created>1584731174137</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584731174137</updated>
+    </task>
+    <task id="LOCAL-00009" summary="11th commit(postgres) BlessRng">
+      <created>1584731980889</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584731980889</updated>
+    </task>
+    <task id="LOCAL-00010" summary="12th commit(postgres) BlessRng">
+      <created>1584776523949</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584776523949</updated>
+    </task>
+    <task id="LOCAL-00011" summary="13th commit(postgres) BlessRng">
+      <created>1584777973743</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584777973743</updated>
+    </task>
+    <task id="LOCAL-00012" summary="14th commit(postgres) BlessRng aaaaaaa">
+      <created>1584778797413</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1584778797413</updated>
+    </task>
+    <task id="LOCAL-00013" summary="15th commit(postgres) BlessRng aaaaaaa">
+      <created>1584779036076</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1584779036076</updated>
+    </task>
+    <task id="LOCAL-00014" summary="16th commit(postgres) BlessRng aaaaaaa">
+      <created>1584779331573</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1584779331573</updated>
+    </task>
+    <task id="LOCAL-00015" summary="17th commit(postgres) BlessRng aaaaaaa">
+      <created>1584779636831</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1584779636831</updated>
+    </task>
+    <task id="LOCAL-00016" summary="18th commit(postgres) BlessRng aaaaaaa">
+      <created>1584780075895</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1584780075895</updated>
+    </task>
+    <task id="LOCAL-00017" summary="19th commit(postgres) BlessRng aaaaaaa">
+      <created>1584780320124</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1584780320124</updated>
+    </task>
+    <task id="LOCAL-00018" summary="20th commit(postgres) BlessRng aaaaaaa wwtf">
+      <created>1584780996178</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1584780996178</updated>
+    </task>
+    <task id="LOCAL-00019" summary="21th commit(postgres) epileptic">
+      <created>1584790101305</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1584790101336</updated>
+    </task>
+    <task id="LOCAL-00020" summary="22th commit(postgres) epileptic -session">
+      <created>1585162008640</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1585162008640</updated>
+    </task>
+    <task id="LOCAL-00021" summary="23th commit (2nd nedorabotka)">
+      <created>1585164632668</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1585164632668</updated>
+    </task>
+    <task id="LOCAL-00022" summary="24th commit (/)">
+      <created>1585211751230</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1585211751230</updated>
+    </task>
+    <task id="LOCAL-00023" summary="25th commit (/)">
+      <created>1585214558594</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1585214558626</updated>
+    </task>
+    <task id="LOCAL-00024" summary="26th commit (1st nedorabotka)">
+      <created>1585250283417</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1585250283417</updated>
+    </task>
+    <task id="LOCAL-00025" summary="27th commit (3th nedorabotka)">
+      <created>1585316137046</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1585316137046</updated>
+    </task>
+    <task id="LOCAL-00026" summary="28th commit (3th nedorabotka(test clock))">
+      <created>1585320095311</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1585320095311</updated>
+    </task>
+    <task id="LOCAL-00027" summary="29th commit (3th nedorabotka(test clock 2))">
+      <created>1585476420871</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1585476420871</updated>
+    </task>
+    <task id="LOCAL-00028" summary="30th commit (settings)">
+      <created>1585572542330</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1585572542330</updated>
+    </task>
+    <task id="LOCAL-00029" summary="31th commit (settings(post))">
+      <created>1585577543396</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1585577543396</updated>
+    </task>
+    <task id="LOCAL-00030" summary="32th commit (settings(post)last)">
+      <created>1585579571298</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1585579571298</updated>
+    </task>
+    <task id="LOCAL-00031" summary="33th commit (settings(post)last 2)">
+      <created>1585581196952</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1585581196952</updated>
+    </task>
+    <task id="LOCAL-00032" summary="34th commit (settings(post)last 3)">
+      <created>1585582327877</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1585582327877</updated>
+    </task>
+    <task id="LOCAL-00033" summary="35th commit (settings + table)">
+      <created>1585584690140</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1585584690140</updated>
+    </task>
+    <task id="LOCAL-00034" summary="35th commit (settings + table + data)">
+      <created>1585584954985</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1585584954985</updated>
+    </task>
+    <task id="LOCAL-00035" summary="36th commit (data + app)">
+      <created>1585585182608</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1585585182608</updated>
+    </task>
+    <task id="LOCAL-00036" summary="37th commit (data + app + clock)">
+      <created>1585585672404</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1585585672404</updated>
+    </task>
+    <task id="LOCAL-00037" summary="38th commit (settings)">
+      <created>1585588450152</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1585588450152</updated>
+    </task>
+    <task id="LOCAL-00038" summary="38th commit (settings + accept)">
+      <created>1585589506656</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1585589506656</updated>
+    </task>
+    <task id="LOCAL-00039" summary="39th commit (settings + accept(min fix))">
+      <created>1585590972132</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1585590972132</updated>
+    </task>
+    <task id="LOCAL-00040" summary="40th commit (settings + accept(min fix 2))">
+      <created>1585639883326</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1585639883326</updated>
+    </task>
+    <task id="LOCAL-00041" summary="41th commit (awake test + fix settings)">
+      <created>1585648442179</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1585648442179</updated>
+    </task>
+    <task id="LOCAL-00042" summary="42th commit (message tokens)">
+      <created>1585666523455</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1585666523455</updated>
+    </task>
+    <task id="LOCAL-00043" summary="42th commit (message tokens (non class))">
+      <created>1585678515821</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1585678515821</updated>
+    </task>
+    <task id="LOCAL-00044" summary="43th commit (message tokens (non class -mozg))">
+      <created>1585679251794</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1585679251794</updated>
+    </task>
+    <task id="LOCAL-00045" summary="43th commit (message tokens (non class -mozg 2))">
+      <created>1585679312707</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1585679312707</updated>
+    </task>
+    <task id="LOCAL-00046" summary="44th commit (message tokens (non class -mozg 3) test)">
+      <created>1585732357501</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1585732357501</updated>
+    </task>
+    <task id="LOCAL-00047" summary="45th commit (message tokens (non class -mozg 3) test - parallel)">
+      <created>1585733656284</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1585733656284</updated>
+    </task>
+    <task id="LOCAL-00048" summary="46th commit (message tokens (non class -mozg 3) test - parallel + fix session)">
+      <created>1585734457665</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1585734457665</updated>
+    </task>
+    <task id="LOCAL-00049" summary="47th commit (finally)">
+      <created>1585812452854</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1585812452854</updated>
+    </task>
+    <task id="LOCAL-00050" summary="48th commit (finally(fix clock))">
+      <created>1585824734208</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1585824734223</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="28th commit (3th nedorabotka(test clock))" />
+    <MESSAGE value="29th commit (3th nedorabotka(test clock 2))" />
+    <MESSAGE value="30th commit (settings)" />
+    <MESSAGE value="31th commit (settings(post))" />
+    <MESSAGE value="32th commit (settings(post)last)" />
+    <MESSAGE value="33th commit (settings(post)last 2)" />
+    <MESSAGE value="34th commit (settings(post)last 3)" />
+    <MESSAGE value="35th commit (settings + table)" />
+    <MESSAGE value="35th commit (settings + table + data)" />
+    <MESSAGE value="36th commit (data + app)" />
+    <MESSAGE value="37th commit (data + app + clock)" />
+    <MESSAGE value="38th commit (settings)" />
+    <MESSAGE value="38th commit (settings + accept)" />
+    <MESSAGE value="39th commit (settings + accept(min fix))" />
+    <MESSAGE value="40th commit (settings + accept(min fix 2))" />
+    <MESSAGE value="41th commit (awake test + fix settings)" />
+    <MESSAGE value="42th commit (message tokens)" />
+    <MESSAGE value="42th commit (message tokens (non class))" />
+    <MESSAGE value="43th commit (message tokens (non class -mozg))" />
+    <MESSAGE value="43th commit (message tokens (non class -mozg 2))" />
+    <MESSAGE value="44th commit (message tokens (non class -mozg 3) test)" />
+    <MESSAGE value="45th commit (message tokens (non class -mozg 3) test - parallel)" />
+    <MESSAGE value="46th commit (message tokens (non class -mozg 3) test - parallel + fix session)" />
+    <MESSAGE value="47th commit (finally)" />
+    <MESSAGE value="48th commit (finally(fix clock))" />
+    <option name="LAST_COMMIT_MESSAGE" value="48th commit (finally(fix clock))" />
+  </component>
+</project>
