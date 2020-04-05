@@ -16,7 +16,7 @@ from viberbot.api.messages import (
 )
 
 #engine = create_engine('sqlite:///mydb.db', echo=True)
-engine = create_engine('postgres://gbdxkaqyfukfdt:75e542c2e41d9c1d1ee1faa8461b1f46e59113eb481e5be5a00aef1baf7ccee7@ec2-54-195-247-108.eu-west-1.compute.amazonaws.com:5432/dd2v5hjmkb5m1d', echo=True)
+engine = create_engine('postgres://swjfygeaqoszbb:5793a39663698b2ab1f0d17275d4873089de8e76657f7172ccb3c40d810eba67@ec2-176-34-97-213.eu-west-1.compute.amazonaws.com:5432/d6gu081g5pfh3p', echo=True)
 Base = declarative_base()
 Session = sessionmaker(engine)
 
@@ -223,7 +223,7 @@ def get_question_number(viber_id):
 app = Flask(__name__)
 
 bot_configuration = BotConfiguration(
-    name='MyLearningEnglishBot4',
+    name='MyLearnEnglishBot4',
     avatar='http://viber.com/avatar.jpg',
     auth_token=TOKEN
 )

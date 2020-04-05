@@ -8,7 +8,7 @@ import requests
 from apscheduler.schedulers.blocking import BlockingScheduler
 
 bot_configuration = BotConfiguration(
-    name='MyLearningEnglishBot4',
+    name='MyLearnEnglishBot4',
     avatar='http://viber.com/avatar.jpg',
     auth_token=TOKEN
 )
@@ -61,7 +61,7 @@ def timed_job():
 
 @sched.scheduled_job('interval', minutes=30)
 def awake_bot():
-    r = requests.get("https://vagabundbot.herokuapp.com")
+    r = requests.get("https://vagabondbot.herokuapp.com")
     if r.status_code == 200:
         print("Bot is awake")
 

@@ -3,7 +3,7 @@ from viberbot import Api
 from viberbot.api.bot_configuration import BotConfiguration
 
 bot_configuration = BotConfiguration(
-    name='MyLearningEnglishBot4',
+    name='MyLearnEnglishBot4',
     avatar='http://viber.com/avatar.jpg',
     auth_token=TOKEN
 )
