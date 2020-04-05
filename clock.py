@@ -2,7 +2,7 @@ from Settings import TOKEN
 from viberbot import Api
 from viberbot.api.bot_configuration import BotConfiguration
 from viberbot.api.messages import TextMessage
-from app import Session, AllUsersInfo, Settings
+from app import Session, Users, Settings
 from datetime import datetime
 import requests
 from apscheduler.schedulers.blocking import BlockingScheduler
@@ -21,8 +21,8 @@ KEYBOARD3 = {
             "Columns": 6,
             "Rows": 1,
             "BgColor": "#e6f5ff",
-            "ActionBody": "Поехали!",
-            "Text": "Поехали!"
+            "ActionBody": "Давай начнём!",
+            "Text": "Давай начнём!"
         },
         {
             "Columns": 6,
@@ -41,11 +41,11 @@ sched = BlockingScheduler()
 @sched.scheduled_job('interval', minutes=1)
 def timed_job():
     session = Session()
-    all_users = session.query(AllUsersInfo.viber_id, AllUsersInfo.answer_time)
+    all_users = session.query(Users.viber_id, Users.dt_last_answer)
     session.close()
 
     session = Session()
-    settings = session.query(Settings.repeat_time).filter(Settings.id_set == 1).one()
+    settings = session.query(Settings.remind_time).filter(Settings.id_set == 1).one()
     session.close()
 
     for user in all_users:
