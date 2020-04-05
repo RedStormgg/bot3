@@ -2,7 +2,7 @@ from Settings import TOKEN
 from viberbot import Api
 from viberbot.api.bot_configuration import BotConfiguration
 from viberbot.api.messages import TextMessage
-from app import Session, Users, Settings
+from app import Session, AllUsersInfo, Settings
 from datetime import datetime
 import requests
 from apscheduler.schedulers.blocking import BlockingScheduler

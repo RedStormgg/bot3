@@ -28,7 +28,6 @@ bot_configuration = BotConfiguration(
 )
 
 viber = Api(bot_configuration)
-message_tokens = TokenHolder()
 
 START_KEYBOARD = {
 "Type": "keyboard",
@@ -315,7 +314,7 @@ def accept():
 
 with open("english_words.json", "r", encoding='utf-8') as f:
     data = json.load(f)
-
+message_tokens = TokenHolder()
 
 @app.route('/incoming', methods=['POST'])
 def incoming():
